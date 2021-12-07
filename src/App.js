@@ -1,18 +1,21 @@
-import './App.css';
-import Counter from './Counter';
-import Newcounter from './NewCounter';
+import './App.css'
+import Counter from './Counter'
+import Newcounter from './NewCounter'
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <div>
-      <Counter />
+        <Counter />
       </div>
       <div>
-      <Newcounter />
+        <Newcounter />
+      </div>
+      <div>
+        <Counter />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
