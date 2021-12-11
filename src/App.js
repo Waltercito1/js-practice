@@ -1,6 +1,7 @@
 import './App.css'
 import Counter from './Counter'
 import Newcounter from './NewCounter'
+import Stopwatch from './Stopwatch'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div>
         <Counter />
+      </div>
+      <div>
+        <Stopwatch />
       </div>
     </div>
   )
